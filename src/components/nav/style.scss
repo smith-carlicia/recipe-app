@@ -1,0 +1,19 @@
+$barcolor:white;
+$text: pink;
+
+
+.navbar {
+    background-color: $barcolor;
+    color: $text;
+}
+
+.home  { 
+   &:hover {
+        display: inline-block ;
+    animation: pulse;
+    color: blue !important
+   
+   }
+}
+
+

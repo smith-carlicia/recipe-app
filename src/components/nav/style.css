@@ -1,0 +1,12 @@
+.navbar {
+  background-color: white;
+  color: pink;
+}
+
+.home:hover {
+  display: inline-block;
+  animation: pulse;
+  color: blue !important;
+}
+
+/*# sourceMappingURL=style.css.map */
