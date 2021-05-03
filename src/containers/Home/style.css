@@ -1,0 +1,54 @@
+.header {
+  background-image: url("https://images.unsplash.com/photo-1547516508-4c1f9c7c4ec3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1059&q=80");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 300px;
+}
+
+.recipe {
+  font-family: "Kite One", sans-serif;
+  font-weight: bolder;
+  font-size: 100px;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-left: 95px;
+}
+
+.cardsrow {
+  background-color: gainsboro;
+  padding-bottom: 70px;
+  border-bottom: none;
+}
+
+.cardStyle {
+  height: "120px";
+  width: "300px";
+  float: "right";
+  margin-top: "100px";
+  margin-right: "20px";
+  display: "flex";
+  animation: pulse;
+  animation-duration: 2s;
+}
+
+.recipe {
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes example {
+  from {
+    top: -10px;
+    color: white;
+  }
+  to {
+    top: 150px;
+    color: black;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
