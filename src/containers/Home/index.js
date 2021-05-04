@@ -34,13 +34,6 @@ const Home = () => {
           login={<TheButton to="/signin" name="Login" />}
         />
         <Content>
-          {/* <Row>
-            <Col span={10}></Col>
-            <Col span={3}>
-              <h1>Recipe App</h1>
-            </Col>
-            <Col span={11}></Col>
-          </Row> */}
           <Row className="header">
             {/* <Col span={3}></Col> */}
             <Col span={8} />
